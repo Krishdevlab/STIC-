@@ -38,7 +38,7 @@ export default function Header() {
               <img src="/assets/logos/stic-logo-dark.png" alt="STIC Logo" className="logo-dark" />
             </div>
             <div className="brand-text">
-              <span className="brand-title">STIC <span>SAREC</span></span>
+              <span className="brand-title">STIC</span>
               <span className="brand-sub">SAREC, Mirzapur — Technology and Innovation Community</span>
             </div>
           </a>

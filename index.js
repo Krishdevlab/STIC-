@@ -270,7 +270,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     submitBtn.disabled = false;
                     submitBtn.innerHTML = `<span>Try Again</span>`;
                 }
-                alert("An error occurred during submission. Please check your internet connection or email us directly at stic.sarecm@gmail.com.");
+                alert("An error occurred during submission. Please check your internet connection or email us directly at sticsarecmzp@gmail.com.");
             }
         });
     }

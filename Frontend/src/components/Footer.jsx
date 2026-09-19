@@ -16,7 +16,7 @@ export default function Footer() {
               </div>
             </div>
             <p style={{ marginTop: '1rem', fontSize: '0.82rem', color: '#94a3b8' }}>
-              Contact: <a href="mailto:stic.sarecm@gmail.com" style={{ color: '#38bdf8' }}>stic.sarecm@gmail.com</a>
+              Contact: <a href="mailto:sticsarecmzp@gmail.com" style={{ color: '#38bdf8' }}>sticsarecmzp@gmail.com</a>
             </p>
           </div>
 
@@ -46,7 +46,7 @@ export default function Footer() {
             <h5>Socials & Code</h5>
             <ul>
               <li><a href="https://github.com/stic-sarec" target="_blank" rel="noopener noreferrer">GitHub (@stic-sarec)</a></li>
-              <li><a href="https://www.instagram.com/stic.sarecm" target="_blank" rel="noopener noreferrer">Instagram (@stic.sarecm)</a></li>
+              <li><a href="https://www.instagram.com/sticsarecmzp" target="_blank" rel="noopener noreferrer" aria-label="STIC on Instagram">Instagram (@sticsarecmzp)</a></li>
               <li><a href="https://t.me/+0ejpCeyf8FRmYzNl" target="_blank" rel="noopener noreferrer">Telegram Community</a></li>
               <li><a href="https://www.linkedin.com/in/piyush-k-4302ba226/" target="_blank" rel="noopener noreferrer">LinkedIn Network</a></li>
             </ul>

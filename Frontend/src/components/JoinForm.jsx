@@ -65,7 +65,7 @@ export default function JoinForm({ selectedClub }) {
     } catch (err) {
       // Form submission error handled gracefully
       setStatus({ submitting: false, submitted: false, error: true });
-      alert("An error occurred during submission. Please verify your connection or email stic.sarecm@gmail.com directly.");
+      alert("An error occurred during submission. Please verify your connection or email sticsarecmzp@gmail.com directly.");
     }
   };
 

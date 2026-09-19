@@ -144,14 +144,14 @@ User → Website Form → Google Apps Script → Google Sheets → Confirmation 
 
 ## 👥 Team
 
-### Founding Members
+### Faculty Coordinator
+
+* Professor Amit Kumar Tiwari
+
+### Co-founders
 
 * Piyush Kushwaha
 * Pawan Kumar Yadav
-
-### Faculty Coordinator
-
-* Dileep Yadav
 
 ---
 
@@ -159,7 +159,7 @@ User → Website Form → Google Apps Script → Google Sheets → Confirmation 
 
 ### Instagram
 
-https://www.instagram.com/stic.sarecm
+https://www.instagram.com/sticsarecmzp
 
 ### GitHub
 
@@ -180,7 +180,7 @@ Contributions are welcome.
 
 ## 📧 Contact
 
-Email: [stic.sarecm@gmail.com](mailto:stic.sarecm@gmail.com)
+Email: [sticsarecmzp@gmail.com](mailto:sticsarecmzp@gmail.com)
 
 Location: Samrat Ashok Rajkiya Engineering College, Mirzapur
 
