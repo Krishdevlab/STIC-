@@ -250,7 +250,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 }
 
                 // Show celebratory alert
-                alert("🎉 Welcome to STIC — SAREC, Mirzapur! Your membership application has been recorded. Check your email and join the Telegram community.");
+                alert("🎉 Welcome to STIC — SAREC, Mirzapur! Your membership application has been recorded. Check your email for further updates.");
                 form.reset();
 
                 setTimeout(() => {

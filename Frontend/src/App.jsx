@@ -77,7 +77,7 @@ export default function App() {
         {/* Different Clubs & Communities Hub */}
         <ClubsHub onJoinTrack={handleSelectClub} />
 
-        {/* Curated Offers & Telegram Community Banner */}
+        {/* Curated Offers & Student Perks */}
         <CuratedOffers onOpenPerkModal={handleOpenPerk} />
 
         {/* The Community Tech Inspired Mission & Core Pillars */}

@@ -35,28 +35,6 @@ export default function CuratedOffers({ onOpenPerkModal }) {
   return (
     <section id="perks" className="perks-section reveal-on-scroll">
       <div className="container">
-        {/* Telegram Top Banner */}
-        <div className="telegram-banner">
-          <div className="tg-content">
-            <div className="tg-icon">
-              <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                <path d="m22 2-7 20-4-9-9-4Z"/>
-                <path d="M22 2 11 13"/>
-              </svg>
-            </div>
-            <div className="tg-text">
-              <h3>Telegram Tech Community</h3>
-              <p>Discuss placements, campus reality, hackathons, and code reviews in real-time.</p>
-            </div>
-          </div>
-          <a href="https://t.me/+0ejpCeyf8FRmYzNl" target="_blank" rel="noopener noreferrer" className="btn-join-tg">
-            <span>Join Now</span>
-            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
-              <path d="M5 12h14"/><path d="m12 5 7 7-7 7"/>
-            </svg>
-          </a>
-        </div>
-
         {/* Offers Layout */}
         <div className="perks-layout">
           <div className="perks-sidebar">

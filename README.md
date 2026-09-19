@@ -96,7 +96,7 @@ Frontend-main/
             ├── Ticker.jsx           # Dual-layer angled scrolling marquee
             ├── ProblemGrid.jsx      # Why students get stuck bento cards
             ├── ClubsHub.jsx         # 8 specialized clubs directory & filters
-            ├── CuratedOffers.jsx    # Telegram banner & application perks
+            ├── CuratedOffers.jsx    # Curated student perks & application offers
             ├── Mission.jsx          # Community Tech mission & lab image
             ├── Partners.jsx         # Supported by & partner showcase
             ├── Events.jsx           # Flagship events with dynamic .ics calendar

@@ -49,7 +49,7 @@ export default function Team() {
                 <div className="avatar" style={{ background: member.avatarBg }}>
                   {member.avatar}
                 </div>
-                <div>
+                <div className="member-info">
                   <h3>{member.name}</h3>
                   <p className="member-role">{member.role}</p>
                   {member.email && (

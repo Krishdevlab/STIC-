@@ -46,7 +46,7 @@ export default function JoinForm({ selectedClub }) {
       });
 
       setStatus({ submitting: false, submitted: true, error: false });
-      alert("🎉 Welcome to STIC — SAREC, Mirzapur! Your membership application has been recorded. Check your email and join the Telegram community.");
+      alert("🎉 Welcome to STIC — SAREC, Mirzapur! Your membership application has been recorded. Check your email for further updates.");
       
       setFormData({
         name: '',
@@ -250,7 +250,7 @@ export default function JoinForm({ selectedClub }) {
               )}
             </button>
 
-            <p className="form-note">⚡ No spam. You'll receive onboarding details and Telegram access link.</p>
+            <p className="form-note">⚡ No spam. You'll receive onboarding details via email.</p>
           </form>
         </div>
       </div>
