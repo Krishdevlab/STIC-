@@ -34,7 +34,6 @@ export default function Footer() {
           <div className="footer-col">
             <h5>Quick Links</h5>
             <ul>
-              <li><a href="#perks">Curated Perks</a></li>
               <li><a href="#events">Upcoming Events</a></li>
               <li><a href="#projects">Student Projects</a></li>
               <li><a href="#team">Senior Mentors</a></li>

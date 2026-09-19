@@ -128,39 +128,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
     // -------------------------------------------------------------
-    // 6. Curated Perks & Offers Modal
-    // -------------------------------------------------------------
-    const perkModal = document.getElementById('perkModal');
-    const modalPerkTitle = document.getElementById('modalPerkTitle');
-    const modalPerkBody = document.getElementById('modalPerkBody');
-    const closePerkModal = document.getElementById('closePerkModal');
-    const modalPerkDismiss = document.getElementById('modalPerkDismiss');
-    const modalPerkAction = document.getElementById('modalPerkAction');
-
-    document.querySelectorAll('.perk-modal-trigger').forEach(trigger => {
-        trigger.addEventListener('click', () => {
-            const title = trigger.getAttribute('data-title');
-            const info = trigger.getAttribute('data-info');
-            if (modalPerkTitle) modalPerkTitle.textContent = title;
-            if (modalPerkBody) modalPerkBody.textContent = info;
-            if (perkModal) perkModal.classList.add('active');
-        });
-    });
-
-    const hidePerkModal = () => {
-        if (perkModal) perkModal.classList.remove('active');
-    };
-
-    if (closePerkModal) closePerkModal.addEventListener('click', hidePerkModal);
-    if (modalPerkDismiss) modalPerkDismiss.addEventListener('click', hidePerkModal);
-    if (modalPerkAction) {
-        modalPerkAction.addEventListener('click', () => {
-            hidePerkModal();
-        });
-    }
-
-    // -------------------------------------------------------------
-    // 7. Team Terminal CLI Profile Modal
+    // 6. Team Terminal CLI Profile Modal
     // -------------------------------------------------------------
     const cliModal = document.getElementById('cliModal');
     const cliTerminalContent = document.getElementById('cliTerminalContent');
@@ -201,13 +169,11 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Global Modal Backdrop Click & ESC Key
     window.addEventListener('click', (e) => {
-        if (e.target === perkModal) hidePerkModal();
         if (e.target === cliModal) hideCliModal();
     });
 
     window.addEventListener('keydown', (e) => {
         if (e.key === 'Escape') {
-            hidePerkModal();
             hideCliModal();
         }
     });

@@ -4,7 +4,6 @@ import Hero from './components/Hero';
 import Ticker from './components/Ticker';
 import ProblemGrid from './components/ProblemGrid';
 import ClubsHub from './components/ClubsHub';
-import CuratedOffers from './components/CuratedOffers';
 import Mission from './components/Mission';
 import Partners from './components/Partners';
 import Events from './components/Events';
@@ -13,10 +12,9 @@ import Team from './components/Team';
 import JoinForm from './components/JoinForm';
 import Footer from './components/Footer';
 import FloatingWidgets from './components/FloatingWidgets';
-import { PerkModal, CliModal } from './components/Modals';
+import { CliModal } from './components/Modals';
 
 export default function App() {
-  const [activePerkModal, setActivePerkModal] = useState(null);
   const [activeCliModal, setActiveCliModal] = useState(null);
   const [selectedClubForForm, setSelectedClubForForm] = useState('');
 
@@ -44,9 +42,6 @@ export default function App() {
     setSelectedClubForForm(clubName);
   };
 
-  const handleOpenPerk = (perk) => {
-    setActivePerkModal(perk);
-  };
 
   const handleOpenCli = (member) => {
     setActiveCliModal(member);
@@ -65,7 +60,7 @@ export default function App() {
       <Header />
 
       <main>
-        {/* Campus Connect Style Hero Section */}
+        {/* Hero Section */}
         <Hero />
 
         {/* Dual Angled Continuous Marquee Ticker */}
@@ -76,9 +71,6 @@ export default function App() {
 
         {/* Different Clubs & Communities Hub */}
         <ClubsHub onJoinTrack={handleSelectClub} />
-
-        {/* Curated Offers & Student Perks */}
-        <CuratedOffers onOpenPerkModal={handleOpenPerk} />
 
         {/* The Community Tech Inspired Mission & Core Pillars */}
         <Mission />
@@ -106,7 +98,6 @@ export default function App() {
       <FloatingWidgets />
 
       {/* Interactive Modal Dialogs */}
-      <PerkModal perk={activePerkModal} onClose={() => setActivePerkModal(null)} />
       <CliModal member={activeCliModal} onClose={() => setActiveCliModal(null)} />
     </div>
   );

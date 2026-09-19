@@ -31,7 +31,7 @@ This website serves as the official platform for showcasing:
 ## ✨ Features
 
 * Responsive modern UI with dark mode support
-* Campus connect header with automatic theme-adaptive logo swapping
+* Responsive header with automatic theme-adaptive logo swapping
 * Subtle animated mesh glow background with WCAG AA compliance
 * Hero section with community overview
 * Events and timeline section with dynamic `.ics` calendar generation
@@ -96,7 +96,6 @@ Frontend-main/
             ├── Ticker.jsx           # Dual-layer angled scrolling marquee
             ├── ProblemGrid.jsx      # Why students get stuck bento cards
             ├── ClubsHub.jsx         # 8 specialized clubs directory & filters
-            ├── CuratedOffers.jsx    # Curated student perks & application offers
             ├── Mission.jsx          # Community Tech mission & lab image
             ├── Partners.jsx         # Supported by & partner showcase
             ├── Events.jsx           # Flagship events with dynamic .ics calendar
@@ -105,7 +104,7 @@ Frontend-main/
             ├── JoinForm.jsx         # Multi-club Google Apps Script form
             ├── Footer.jsx           # Footer links, college seal & tagline
             ├── FloatingWidgets.jsx  # Floating WhatsApp & analytics toast
-            └── Modals.jsx           # Perk offer & Terminal CLI modals
+            └── Modals.jsx           # Terminal CLI profile modal
 ```
 
 ---

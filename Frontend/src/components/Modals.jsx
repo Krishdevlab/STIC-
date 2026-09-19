@@ -1,44 +1,5 @@
 import React, { useEffect } from 'react';
 
-export function PerkModal({ perk, onClose }) {
-  useEffect(() => {
-    const handleKeyDown = (e) => {
-      if (e.key === 'Escape') onClose();
-    };
-    if (perk) {
-      window.addEventListener('keydown', handleKeyDown);
-    }
-    return () => window.removeEventListener('keydown', handleKeyDown);
-  }, [perk, onClose]);
-
-  if (!perk) return null;
-
-  return (
-    <div className="modal-overlay active" onClick={(e) => { if (e.target === e.currentTarget) onClose(); }}>
-      <div className="modal-container">
-        <button className="modal-close-btn" onClick={onClose} aria-label="Close">✕</button>
-        <div className="section-tag" style={{ marginBottom: '0.85rem' }}>Exclusive Student Offer</div>
-        <h3 style={{ fontFamily: 'var(--font-heading)', fontSize: '1.6rem', fontWeight: 800, marginBottom: '1rem' }}>
-          {perk.title}
-        </h3>
-        <p style={{ fontSize: '1rem', color: 'var(--text-secondary)', lineHeight: 1.65, marginBottom: '1.75rem' }}>
-          {perk.info}
-        </p>
-        <div style={{ display: 'flex', gap: '0.75rem' }}>
-          <a 
-            href="#join" 
-            className="btn btn-primary"
-            onClick={onClose}
-          >
-            Claim Via STIC →
-          </a>
-          <button className="btn btn-outline" onClick={onClose}>Close</button>
-        </div>
-      </div>
-    </div>
-  );
-}
-
 export function CliModal({ member, onClose }) {
   useEffect(() => {
     const handleKeyDown = (e) => {

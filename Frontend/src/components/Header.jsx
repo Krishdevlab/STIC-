@@ -45,7 +45,6 @@ export default function Header() {
 
           <nav className="nav-links">
             <a href="#clubs">Clubs</a>
-            <a href="#perks">Perks & Offers</a>
             <a href="#problem">Why Join</a>
             <a href="#mission">Mission</a>
             <a href="#events">Events</a>
@@ -109,7 +108,6 @@ export default function Header() {
       {/* Mobile Navigation Drawer */}
       <div className={`mobile-nav-drawer ${mobileMenuOpen ? 'active' : ''}`}>
         <a href="#clubs" className="mobile-nav-item" onClick={closeMobileMenu}>Explore Clubs</a>
-        <a href="#perks" className="mobile-nav-item" onClick={closeMobileMenu}>Curated Offers</a>
         <a href="#problem" className="mobile-nav-item" onClick={closeMobileMenu}>Why Students Get Stuck</a>
         <a href="#mission" className="mobile-nav-item" onClick={closeMobileMenu}>Our Mission</a>
         <a href="#events" className="mobile-nav-item" onClick={closeMobileMenu}>Flagship Events</a>
